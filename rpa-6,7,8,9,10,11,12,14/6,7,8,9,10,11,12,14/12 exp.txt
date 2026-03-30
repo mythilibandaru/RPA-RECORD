@@ -1,0 +1,6 @@
+elseif===CurrentRow.ByField("status").Equals("pass")
+then source range===Excel.Sheet("Sheet1").Range("B"+(CurrentIndex+1).ToString)
+elseif===CurrentRow.ByField("status").Equals("fail")
+body source range===Excel.Sheet("Sheet1").Range("B"+(CurrentIndex+1).ToString)
+else source range===Excel.Sheet("Sheet1").Range("B"+(CurrentIndex+1).ToString)
+
